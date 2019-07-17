@@ -28,7 +28,7 @@ export default function introduction() {
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <ResourceLink type={'git'} h2={ <h1>I love building<br /> THINGS !!</h1>} />
+                          <ResourceLink type={'git'} h2={ <h1><span style={{color:'white', opacity:'0.7'}}>love building <br /> THINGS !!</span> </h1>} />
                         </div>
                       </div>
                     </div>
@@ -42,7 +42,7 @@ export default function introduction() {
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1>I love to learn <br/>here are some the resources I use ... </h1>
+                          <h1><span style={{opacity:'0.5'}}>love to learn <br/>here are some the resources I use ...</span>  </h1>
                           <br/>
                           <ResourceLink type={'java'}/>
                           <ResourceLink type={'crash'}/>

@@ -11,7 +11,7 @@ const ResourceLink = ({ type, h2 }) => {
             data.items.map(obj => {
                 const { id, link, name } = obj;
                 return (<p key={id}>
-                    <a className="btn btn-primary btn-learn"
+                    <a className="btn btn-primary"
                         href={link}
                         target="_blank" 
                         rel="noopener noreferrer">
