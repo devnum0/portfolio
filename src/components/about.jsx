@@ -66,7 +66,7 @@ export default function about() {
                     Trees/Binary Trees<br/>
                     Divide and Conquer<br/>
                     Recursion<br/>
-                    Dynamic programing <br/>
+                    Dynamic programming <br/>
                 </div>
                 </div>
             </div>
