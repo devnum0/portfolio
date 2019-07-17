@@ -5,7 +5,7 @@ const ResourceLink = ({ type, h2 }) => {
     const data = LINK_DATA[type];
     const h1o = h2 ? h2 :  <h2><span style={{color:'white'}}>{data.title}</span></h2>
 
-    return <div style={{display:`${h2 ? '': 'flex'}`}}>
+    return <div style={{display:`${h2 ? '': ''}`}}>
             {h1o}
         {  
             data.items.map(obj => {
