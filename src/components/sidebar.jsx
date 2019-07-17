@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import React,{Fragment} from 'react'
 
-export default class Sidebar extends Component {
-  render() {
-    return (
-      <div>
-        <div>
+
+export default function sidebar() {
+  return (
+    <Fragment>
+       <div>
           <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
           <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
@@ -17,8 +17,6 @@ export default class Sidebar extends Component {
                 <ul>
                   <li className="active"><a href="#home" data-nav-section="home">Introduction</a></li>
                   <li><a href="#about" data-nav-section="about">About</a></li>
-                  {/*<li><a href="#" data-nav-section="projects">Projects</a></li>
-                  <li><a href="#" data-nav-section="blog">Blog</a></li>*/}
                   <li><a href="#timeline" data-nav-section="timeline">Timeline</a></li>
                 </ul>
               </div>
@@ -31,7 +29,8 @@ export default class Sidebar extends Component {
             </nav>
           </aside>
         </div>
-      </div>
-    )
-  }
+    </Fragment>
+  )
 }
+
+

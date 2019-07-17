@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import React,{Fragment} from 'react'
 
-export default class Timeline extends Component {
-  render() {
-    return (
-      <div>
-        <section className="colorlib-experience" data-section="timeline">
+
+export default function timeline() {
+  return (
+    <Fragment>
+         <section className="colorlib-experience" data-section="timeline">
           <div className="colorlib-narrow-content">
             <div className="row">
               <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -86,7 +86,6 @@ export default class Timeline extends Component {
             </div>
           </div>
         </section>
-      </div>
-    )
-  }
+    </Fragment>
+  )
 }

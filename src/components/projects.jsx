@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React,{Fragment} from 'react'
 
-export default class Projects extends Component {
-  render() {
-    return (
-      <div>
+
+export default function projects() {
+	return (
+		<Fragment>
 				<section className="colorlib-work" data-section="projects">
 					<div className="colorlib-narrow-content">
 						<div className="row">
@@ -111,7 +111,7 @@ export default class Projects extends Component {
 						</div>
 					</div>
 				</section>
-      </div>
-    )
-  }
+		</Fragment>
+	)
 }
+
